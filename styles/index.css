@@ -1,0 +1,197 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-drag: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+    --navbar-color: #222222;
+    --bg-color: #161513;
+    --text: #fff;
+
+    /* gradient */
+    --color1: #00E5FF;
+    --color2: #1200ff;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* body{
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-direction: column;
+} */
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--navbar-color);
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: var(--text);
+    padding: 1rem 0;
+}
+#logo-cont{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    font-size: 2rem;
+}
+
+#logo-cont, nav{
+    padding: 0 5rem;
+}
+
+nav{
+    width: auto;
+    height: 100%;
+}
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav > ul > li{
+    margin: 1rem;
+    font-size: .9rem;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: var(--text);
+    font-size: .9rem;
+}
+
+
+#avatar-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-color: #1200ff;
+    background: linear-gradient(to bottom, var(--color1), var(--color2));
+    margin: 4rem 0 2rem 0;
+}
+
+#title-cont{
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+#title-cont > #title, span{
+    font-size: 2.5rem;
+    color: #fff;
+}
+#title-cont > #title{
+    margin: 1.5rem;
+}
+#title-cont > #title > span{
+    background: linear-gradient(to right, #00E5FF, #1200ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#title-cont > #sub-title{
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#action-bttns{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+#action-bttns > button{
+    width: 150px;
+    height: 40px;
+    margin: .5rem;
+    cursor: pointer;
+}
+#get-intouch{
+    background-color: #fff;
+    color: var(--bg-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+#downloadCV{
+    background-color: var(--bg-color);
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+#languages-cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 1.5rem;
+}
+#languages-cont > #language-title{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+#languages-cont > #img-cont > img{
+    height: 30px;
+    width: auto;
+    padding: .5rem;
+}
+
+#contact-cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 2rem;
+}
+#contact-title{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.contact{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .2rem;
+}
+#contact-cont span{
+    font-size: 1rem;
+    font-weight: 400;
+}

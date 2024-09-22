@@ -23,8 +23,9 @@ function About() {
 
           <div className='removemp d-flex flex-column mx-3'>
             <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Name:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.name}</span></label>
-            <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Date of Birth:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.birthdate}</span></label>
-            <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Zip Code:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.zip_code}</span></label>
+            {/* <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Date of Birth:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.birthdate}</span></label> */}
+            {/* <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Zip Code:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.zip_code}</span></label> */}
+            <label className="text-white" style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Facebook:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.fb}</span></label>
             <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Email:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.email}</span></label>
             <label className='text-white' style={{fontSize:'0.8rem'}}><strong style={{fontSize:'.8rem'}}>Phone:</strong> <span style={{color:'#A8A8A8', fontSize:'0.8rem'}}>{info.phone}</span></label>
           </div>

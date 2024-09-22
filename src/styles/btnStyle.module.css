@@ -1,0 +1,21 @@
+button{
+    cursor: pointer;
+    height: 2rem;
+    font-size: .9rem;
+}
+.bordered_btn{
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0C054D;
+    border-radius: 5rem;
+    padding: 0px 2rem;
+}
+.solid_btn{
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #1654F3;
+    border-radius: 5rem;
+    padding: 0px 2rem;
+}

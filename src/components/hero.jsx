@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/remove-m-p.css'
-import profile from '../assets/profile.svg'
+import profile from '../assets/profile.jpg'
 import btnStyle from '../styles/btnStyle.module.css'
+
 
 function Hero() {
   return (

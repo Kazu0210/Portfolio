@@ -16,7 +16,7 @@ function About() {
             <img src={profile_2} alt="profile2" className='img-fluid' />
           </div>
         </div>
-        <div className="removemp text-wrap">
+        <div className="removemp text-wrap d-flex flex-column">
           <div className='removemp my-3 container-fluid d-flex justify-content-center align-items-center'>
             <p style={{color:'#A8A8A8', fontSize:'0.8rem', width:'90%'}} className='removemp text-center'>4th year college of Cavite State University Silang Campus, with 2 years experience of web development.</p>
           </div>

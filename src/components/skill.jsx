@@ -13,7 +13,7 @@ function Skills() {
             <p style={{color:'#A8A8A8', fontSize:'0.8rem', width:'90%'}} className='removemp text-center'>As a dedicated front-end web developer, I specialize in crafting responsive, interactive, and visually stunning user interfaces. My skills include:</p>
           </div>
         </div>
-        <div className="removemp row" style={{width:'100%'}}>
+        <div className="removemp row" style={{width:'80%'}}>
             <div className='col'>
                 <SkillBar skill_name="HTML/CSS" skill_percentage="95"/>
                 <SkillBar skill_name="JAVASCRIPT" skill_percentage="75"/>

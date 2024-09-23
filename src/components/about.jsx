@@ -10,9 +10,9 @@ function About() {
       <div className="removemp">
         <h1 className="removemp text-white text-center">ABOUT ME</h1>
       </div>
-      <div className="removemp d-flex flex-column align-items-center">
-        <div className='removemp d-none d-sm-flex justify-content-center align-items-center' style={{width:'auto'}}>
-          <div className="removemp overflow-hidden d-flex justify-content-center align-items-center" style={{width:'40%', aspectRatio:'1/1'}}>
+      <div className="removemp d-sm-flex flex-column flex-md-row">
+        <div className='removemp d-none d-sm-flex justify-content-center align-items-center' style={{height:'100%'}}>
+          <div className="removemp p-3 overflow-hidden d-flex justify-content-center align-items-center" style={{width:'90%', aspectRatio:'1/1'}}>
             <img src={profile_2} alt="profile2" className='img-fluid' />
           </div>
         </div>

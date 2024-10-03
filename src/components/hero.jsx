@@ -11,7 +11,7 @@ function Hero() {
         <div className="removemp container py-3">
           <h1 className='removemp fw-bolder' style={{color:'#0C054D', WebkitTextStroke: '1px white', fontSize:'3rem'}}>HELLO, I AM</h1>
           <h1 className='removemp text-white' style={{fontSize:'3rem'}}>KYLE DEMAFELIS</h1>
-          <p className='removemp text-white' style={{fontSize:'1rem'}}>Full Stack Web Developer</p>
+          <p className='removemp text-white' style={{fontSize:'1rem'}}>Front-End Web Developer</p>
         </div>
         <div className="removemp container d-flex py-2 w-auto" style={{gap:'5px'}}>
           <button className={btnStyle.solid_btn}>Hire me</button>
